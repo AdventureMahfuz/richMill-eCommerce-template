@@ -1,0 +1,25 @@
+/*
+promotions section style start*/
+.single-promo{
+  p{
+    margin: 0;
+  }
+  .promo-icon{
+    i{
+      position: relative;
+      font-size: 2em;
+      color: $primary;
+      &:after{
+        position: absolute;
+        content: "";
+        width: 1px;
+        height: 100%;
+        top: 0;
+        right: -8px;
+        border-right: 1px solid $primary;
+      }
+    }
+  }
+}
+/*
+promotions section style start*/

@@ -1,0 +1,43 @@
+/*side nav style overwrite start*/
+.categories-sidenav {
+  ul {
+    li {
+      a {
+        i {
+          margin-right: 0;
+          text-align: center;
+        }
+      }
+    }
+    li:nth-child(2n-1) {
+      background: #ddd;
+    }
+  }
+}
+
+.mobile-filter {
+  a[data-target="filternav-out"] {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    display: block;
+  }
+  .filter-sidebar {
+    .categories {
+      ul {
+        li {
+          display: block;
+          overflow: hidden;
+          a {
+            padding: 5px !important;
+            font-size: 1.2em;
+            i {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*side nav style overwrite end*/

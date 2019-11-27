@@ -1,0 +1,52 @@
+/*
+product style start
+*/
+.single-product{
+  margin-bottom: 15px;
+  .product-thumb{
+    height: 160px;
+    text-align: center;
+    img{
+      width: auto;
+      height: 100%;
+      margin: 0 auto;
+    }
+  }
+  .product-info{
+    h5{
+      font-size: 1em;
+      text-transform: capitalize;
+      font-weight: 600;
+      margin: 0;
+      padding: 10px 0;
+      margin-bottom: 5px;
+    }
+    p.weight {
+      margin: 0;
+      font-size: .875em;
+      text-transform: capitalize;
+    }
+    p.price {
+      font-size: .875em;
+      margin-bottom: 5px;
+      strong {
+        font-size: 1.3em;
+        font-weight: 700;
+      }
+    }
+    a{
+      text-transform: capitalize;
+      display: block;
+      border: 1px solid #ddd;
+      color: deeppink;
+      padding: 5px 0;
+      font-weight: 600;
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+/*
+product style end
+*/

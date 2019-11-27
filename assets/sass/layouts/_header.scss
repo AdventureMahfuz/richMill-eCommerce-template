@@ -1,0 +1,255 @@
+/*
+header area start
+*/
+header {
+  .topbar-section {
+    background: $secondary;
+    ul {
+      text-align: right;
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          text-transform: capitalize;
+          color: #ffffff;
+          padding: 5px;
+          &:hover {
+
+          }
+        }
+      }
+    }
+  }
+  .mobile-design {
+    background: $primary;
+  }
+  .middle-section {
+    background: $primary;
+    padding: 15px 0;
+    .logo {
+      h1 {
+        margin: 0;
+        padding: 0;
+        text-transform: capitalize;
+        font-size: 2em;
+        line-height: 2em;
+      }
+    }
+    .search-area {
+      position: relative;
+      form {
+        label {
+          color: #ffffff;
+        }
+        .search-field {
+          .input-field {
+            margin: 0;
+            input {
+              margin: 0;
+            }
+          }
+        }
+        .cat-search {
+          position: absolute;
+          right: 7%;
+          bottom: 0;
+          width: 35%;
+          .input-field {
+            margin: 0;
+            color: #ffffff;
+            input {
+              margin: 0;
+            }
+          }
+        }
+        .serch-btn {
+          position: absolute;
+          right: 0;
+          bottom: 4px;
+          button {
+            margin: 0;
+            padding: 0;
+            border: none;
+            background: none;
+            i {
+              margin: 0;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+    .cart {
+      .cart-icon {
+        position: relative;
+        i {
+          font-size: 25px;
+        }
+        span {
+          position: absolute;
+          background: red;
+          display: block;
+          width: 25px;
+          height: 25px;
+          text-align: center;
+          border-radius: 50%;
+          right: -15px;
+          top: -8px;
+        }
+      }
+    }
+  }
+  .bottom-section {
+    background: $primary;
+    .cat-lists {
+      .cat-btn {
+        a {
+          position: relative;
+          margin: 0;
+          background: $secondary;
+          padding: 10px 5px;
+          text-align: left;
+          color: #ffffff;
+          text-transform: capitalize;
+          display: block;
+          font-size: 1.1em;
+          letter-spacing: .5px;
+          &:hover {
+            background: $secondary;
+            color: #ffffff;
+          }
+          i {
+            margin: 0 10px;
+          }
+          span {
+            float: right;
+          }
+        }
+      }
+      .cat-navigation {
+        ul {
+          position: absolute;
+          width: 90%;
+          top: -3px;
+          background: #ffffff;
+          padding: 15px 10px;
+          z-index: 10;
+          height: 65vh;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          box-shadow: 0 0 5px #999;
+          -webkit-transition: all .5s;
+          -moz-transition: all .5s;
+          -ms-transition: all .5s;
+          -o-transition: all .5s;
+          transition: all .5s;
+          li {
+            display: block;
+            a {
+              display: block;
+              color: #4a4a4a;
+              text-transform: capitalize;
+              padding: 10px 5px;
+              border-bottom: 1px solid #ddd;
+              &:last-child {
+                border-bottom: none;
+              }
+            }
+          }
+          li.cat-dropdown-item {
+            position: relative;
+            display: block;
+            &:hover {
+              .mega-menu {
+                opacity: 1;
+                visibility: visible;
+                -webkit-transition: all .5s;
+                -moz-transition: all .5s;
+                -ms-transition: all .5s;
+                -o-transition: all .5s;
+                transition: all .5s;
+              }
+            }
+            .mega-menu {
+              opacity: 0;
+              visibility: hidden;
+              background: #fff;
+              position: absolute;
+              z-index: 10;
+              width: 344%;
+              left: 104%;
+              top: -61px;
+              padding: 15px 25px;
+              box-shadow: 0 0 5px #999;
+              height: 60vh;
+              overflow-y: auto;
+              -webkit-transition: all .5s;
+              -moz-transition: all .5s;
+              -ms-transition: all .5s;
+              -o-transition: all .5s;
+              transition: all .5s;
+              ul {
+                box-shadow: initial;
+                height: initial;
+                position: initial;
+                li {
+                  a {
+                    text-transform: capitalize;
+                    display: block;
+                    padding: 3px 0;
+                    font-weight: normal;
+                    span{
+                      font-weight: 700;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .cat-navigation.dropdown-menu {
+        background: initial;
+        border: none;
+        width: 100%;
+      }
+    }
+    .header-social-link {
+      ul {
+        text-align: center;
+        li {
+          display: inline-block;
+          a {
+            display: block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            background: $secondary;
+            transform: scale(1);
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -ms-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+            &:hover {
+              -webkit-transform: scale(1.1);
+              -moz-transform: scale(1.1);
+              -ms-transform: scale(1.1);
+              -o-transform: scale(1.1);
+              transform: scale(1.1);
+            }
+            i {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+header area end
+*/

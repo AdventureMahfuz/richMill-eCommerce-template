@@ -1,0 +1,30 @@
+/*
+table style start
+*/
+table {
+  thead {
+    tr {
+      th {
+        text-align: center;
+      }
+    }
+  }
+  tbody {
+    tr {
+      th{
+        text-align: center;
+      }
+      td {
+        text-align: center;
+        i{
+          color: $primary;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+/*
+table style end
+*/

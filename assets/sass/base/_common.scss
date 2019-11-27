@@ -1,0 +1,74 @@
+/*common style start*/
+.section-padding {
+  padding: 35px 0;
+}
+.section-title-1{
+  h3{
+    position: relative;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    margin: 25px 0;
+    z-index: 1;
+    span{
+      display: inline-block;
+      background: #ffffff;
+      padding: 0 10px;
+    }
+    &:before{
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 9px;
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px solid #ddd;
+      z-index: -1;
+    }
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  color: $dark;
+}
+.btn-large{
+  background: $primary;
+}
+a {
+  color: $gray;
+}
+
+a:hover {
+  color: $primary;
+}
+
+.select-wrapper .caret {
+  fill: #fff;
+}
+.select-wrapper input.select-dropdown{
+  color: #ffffff;
+}
+/*common style end*/
+
+/*
+=============================================================================
+scroll bar style for chrome
+==============================================================================
+*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $primary;
+}
+
+/*
+=============================================================================
+scroll bar style for chrome
+==============================================================================
+*/

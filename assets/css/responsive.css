@@ -1,0 +1,112 @@
+/*Medium Layout: 1280*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/*Tablet Layout: 768px*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*front page start*/
+    .item-content h2 {
+        font-size: 2em;
+    }
+
+    .item-content p {
+        font-size: 1.2em;
+        line-height: 1.3em;
+    }
+
+    .mask h4 {
+        font-size: 1.4em;
+    }
+
+    /*front page end*/
+    /*product details page start*/
+    .review-form {
+        width: 100% !important;
+    }
+
+    .buy-area a {
+        padding: 10px;
+        height: 45px;
+        line-height: 28px;
+    }
+
+    /*product details page end*/
+    /*shop page start*/
+    .l-sidebar h5 {
+        font-size: 1.2em;
+    }
+
+    /*shop page end*/
+}
+
+/*Mobile Layout: 320px*/
+@media only screen and (max-width: 767px) {
+    /*front page start*/
+    section.topbar-section ul {
+        text-align: center !important;
+    }
+
+    .mobile-design {
+        display: block;
+    }
+
+    .logo, .cart-area, .cat-lists {
+        display: none;
+    }
+
+    .header-social-link {
+        padding: 10px 0;
+    }
+
+    .item-content h2 {
+        font-size: 1.7em;
+    }
+
+    .item-content p {
+        font-size: 1.2em;
+        line-height: 1.2em;
+        padding: 20px 0;
+    }
+
+    /*front page end*/
+    /*product details page start*/
+    .review-form {
+        width: 100% !important;
+    }
+
+    .buy-area a {
+        padding: 10px;
+        height: 45px;
+        line-height: 28px;
+    }
+
+    .buy-area a i {
+        margin: 0;
+    }
+
+    /*product details page end*/
+    /*shop page start*/
+    .l-sidebar h5 {
+        font-size: 1.2em;
+    }
+
+    .l-sidebar {
+        display: none;
+    }
+
+    .mobile-filter {
+        display: block !important;
+    }
+
+    /*shop page end*/
+    /*login page start*/
+    .form-area .section-title h2 {
+        font-size: 2em;
+    }
+
+    /*login page end*/
+}
+
+/*Wide Mobile Layout: 480px*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}

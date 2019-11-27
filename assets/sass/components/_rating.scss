@@ -1,0 +1,25 @@
+/*
+rating style start
+*/
+.rating ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    display: inline-block;
+    padding: 5px 0;
+    color: $dark;
+    cursor: pointer;
+    font-size: 1em;
+    text-transform: capitalize;
+    span{
+      font-size: 0.7em;
+    }
+  }
+  li.rated {
+    color: $rating;
+  }
+}
+/*
+rating style end
+*/
