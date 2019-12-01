@@ -621,6 +621,9 @@ product style start
 */
 .single-product {
   margin-bottom: 15px;
+  width: 20%;
+  float: left;
+  padding: 0 10px;
 }
 .single-product .product-thumb {
   height: 160px;
@@ -662,6 +665,10 @@ product style start
 }
 .single-product .product-info a i {
   margin-right: 5px;
+}
+
+.single-product.shop-page {
+  width: 25%;
 }
 
 /*
@@ -770,6 +777,47 @@ rating style start
 /*
 rating style end
 */
+/*
+cart view style start*/
+.cart-item-details ul li.c-heading .delete-all i {
+  color: #9e9e9e;
+}
+.cart-item-details ul li.c-heading .delete-all span {
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #9e9e9e;
+}
+.cart-item-details ul li.c-heading span.price, .cart-item-details ul li.c-heading span.qty {
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #9e9e9e;
+}
+.cart-item-details ul li.c-data .c-action i {
+  font-size: 1.5em;
+  color: #9e9e9e;
+}
+.cart-item-details ul li.c-data .custom-control label .c-info p {
+  font-weight: 300;
+  font-size: 1em;
+  color: #9e9e9e;
+}
+.cart-item-details ul li.c-data .custom-control label .c-info p.variation {
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #9e9e9e;
+}
+.cart-item-details ul li.c-data .c-info p {
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #9e9e9e;
+}
+.cart-item-details ul li.c-data .c-info p.variation {
+  font-weight: 300;
+  font-size: 0.6em;
+  color: #9e9e9e;
+}
+/*
+cart view style end*/
 /*
 table style start
 */

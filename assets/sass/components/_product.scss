@@ -3,6 +3,9 @@ product style start
 */
 .single-product{
   margin-bottom: 15px;
+  width: 20%;
+  float: left;
+  padding: 0 10px;
   .product-thumb{
     height: 160px;
     text-align: center;
@@ -46,6 +49,9 @@ product style start
       }
     }
   }
+}
+.single-product.shop-page{
+  width: 25%;
 }
 /*
 product style end

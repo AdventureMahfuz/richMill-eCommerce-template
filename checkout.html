@@ -411,135 +411,79 @@
         <div class="row">
             <div class="col-lg-8 mb-lg-0 mb-5 order-lg-0 order-1">
                 <div class="z-depth-1 rounded overflow-hidden p-4">
-                    <div class="c-tab">
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item font-weight-bold text-capitalize">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#login" role="tab"
-                                   aria-controls="home"
-                                   aria-selected="true">Login</a>
-                            </li>
-                            <li class="nav-item font-weight-bold text-capitalize">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#guest-checkout" role="tab"
-                                   aria-controls="profile"
-                                   aria-selected="false">Guest Checkout</a>
+                    <div class="cart-item-details">
+                        <ul>
+                            <li class="c-data text-uppercase mb-4 shadow">
+                                <div class="row p-3">
+                                    <div class="col-7">
+                                        <div class="d-flex">
+                                            <div class="c-thumb">
+                                                <img src="assets/images/view-cart-thumb.png" alt="" class="img-fluid">
+                                            </div>
+                                            <span class="c-info ml-2">
+                                                <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+                                                <p class="font-smaller mb-0 variation">product variation</p>
+                                                <span class="c-action">
+                                                    <i class="fa fa-heart mr-3"></i>
+                                                    <i class="fa fa-trash"></i>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-5 text-center">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p class="font-weight-bold text-danger m-0">৳ 100</p>
+                                                <p class="m-0">৳ <del>90</del></p>
+                                                <p class="m-0"><span>-10%</span></p>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="c-qty d-flex mt-2">
+                                                    <i class="fa fa-minus m-auto bg-light p-2"></i>
+                                                    <span class="m-auto">1</span>
+                                                    <i class="fa fa-plus m-auto bg-light p-2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
-                        <div class="tab-content p-3 border border-top-0" id="myTabContent">
-                            <div class="tab-pane fade show active" id="login" role="tabpanel"
-                                 aria-labelledby="home-tab">
-                                <div class="login-form">
-                                    <form action="">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="input-field">
-                                                    <input id="user_name" type="text" class="validate">
-                                                    <label for="user_name">Username / email</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="input-field">
-                                                    <input id="password" type="password" class="validate">
-                                                    <label for="password">Password</label>
-                                                </div>
-                                                <button class="btn waves-effect waves-light btn-large" type="submit"
-                                                        name="login">Login
-                                                    <i class="material-icons right">send</i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="guest-checkout" role="tabpanel"
-                                 aria-labelledby="profile-tab">
-                                <div class="guest-checkout-form">
-                                    <form action="">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="input-field">
-                                                    <input id="full_name" type="text" class="validate">
-                                                    <label for="full_name">Your Name<span
-                                                            class="red-text">*</span></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="input-field">
-                                                    <input id="userName" type="text" class="validate">
-                                                    <label for="userName">Username / email</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="input-field">
-                                                    <input id="phone" type="text" class="validate">
-                                                    <label for="phone">Phone<span class="red-text">*</span></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="input-field">
-                                                    <input id="address" type="text" class="validate">
-                                                    <label for="address">Address<span class="red-text">*</span></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="input-field">
-                                                    <input id="city" type="text" class="validate">
-                                                    <label for="city">City / Town</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="input-field">
-                                                    <input id="postcode" type="text" class="validate">
-                                                    <label for="postcode">Postcode</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <button class="btn waves-effect waves-light btn-large float-right"
-                                                        type="submit" name="order">Place Order
-                                                    <i class="material-icons right">send</i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 order-lg-1 order-0">
                 <div class="cart-totals z-depth-1 rounded">
-                    <div class="section-header text-center blue pt-1 pb-1">
+                    <!--<div class="section-header text-center blue pt-1 pb-1">
                         <h4 class="text-uppercase white-text"><i class="fa fa-calculator"> cart totals</i></h4>
+                    </div>-->
+                    <div class="ch-address p-3 pb-0">
+                        <div class="d-flex clearfix">
+                            <i class="fa fa-map-marker my-auto"></i>
+                            <h6 class="ml-2 text-capitalize font-weight-bold">client name</h6>
+                        </div>
+                        <p class="m-0">House #14/A (5th floor), Rad No #1/A, Block #J Baridhara, Dhaka - North, Dhaka <br/> 01739852881</p>
                     </div>
                     <ul class="cart p-2">
+                        <span class="font-weight-bold text-capitalize">order summary</span>
                         <li class="text-capitalize p-2">total items<span class="float-right">8 items</span></li>
                         <li class="text-capitalize p-2">total Amount<span class="float-right">$ 142</span></li>
                         <li class="text-capitalize p-2">Shipping cost<span class="float-right">$ 0.00</span></li>
                         <li class="text-capitalize p-2">product tax<span class="float-right">$ 0.00</span></li>
-                        <li class="text-capitalize p-2">grand total<span class="float-right">$ 142</span></li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header font-weight-bold text-capitalize">
-                                <i class="material-icons">favorite_border</i>Have a coupon? <span
-                                    class="red-text ml-3 font-weight-normal font-smaller font-italic">click here</span>
-                            </div>
-                            <div class="collapsible-body">
-                                <div class="coupon-form">
-                                    <form action="#">
-                                        <div class="d-flex">
-                                            <div class="input-field">
-                                                <input id="coupon" type="text" class="validate">
-                                                <label for="coupon">Coupon Code</label>
-                                            </div>
-                                            <button class="btn waves-effect waves-light btn-large" type="submit"
-                                                    name="action">Apply
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
+                        <li class="mt-3 mb-3">
+                            <div class="coupon-form">
+                                <form action="#">
+                                    <div class="d-flex">
+                                        <input type="text" class="form-control border m-0 mr-1 pl-2" placeholder="Enter Voucher Code" style="height: initial;">
+                                        <button type="submit" class="btn btn-primary m-0">Apply</button>
+                                    </div>
+                                </form>
                             </div>
                         </li>
+                        <li class="text-capitalize p-2">grand total<span class="float-right">$ 142</span></li>
+                        <div class="text-center">
+                            <a class="w-100 waves-effect waves-light btn-small white-text mt-4 font-weight-bold z-depth-1 rounded" style="background: #f57224;">place order</a>
+                        </div>
                     </ul>
                 </div>
             </div>

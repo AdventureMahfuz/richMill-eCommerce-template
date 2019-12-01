@@ -410,118 +410,201 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mb-lg-0 mb-5">
-                <div class="cart-item-details z-depth-1 rounded overflow-hidden">
-                    <table class="table table-bordered text-center text-capitalize table-responsive-sm">
-                        <thead class="blue white-text font-weight-bold">
-                        <tr>
-                            <th scope="col">No</th>
-                            <th scope="col">product name</th>
-                            <th scope="col">items</th>
-                            <th scope="col">price</th>
-                            <th scope="col">sub total</th>
-                            <th scope="col">Dismiss</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <th>1</th>
-                            <td>
-                                <p style="margin: 0">product name</p>
-                            </td>
-                            <td>
-                                <form action="#">
-                                    <div class="number-of-items">
-                                        <input type="number" value="1" class="border text-center">
+                <div class="cart-item-details">
+                    <ul>
+                        <li class="c-heading text-uppercase mb-4 p-3 shadow">
+                            <div class="row">
+                                <div class="col-7 d-flex">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="sa">
+                                        <label class="custom-control-label" for="sa">select all (3 item(s))</label>
                                     </div>
-                                </form>
-                            </td>
-                            <td>$ 15</td>
-                            <td>$ 15</td>
-                            <td><i class="fa fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <th>2</th>
-                            <td>
-                                <p style="margin: 0">product name</p>
-                            </td>
-                            <td>
-                                <form action="#">
-                                    <div class="number-of-items">
-                                        <input type="number" value="2" class="border text-center">
+                                    <div class="delete-all d-flex ml-5">
+                                        <i class="fa fa-trash my-auto mr-1"></i>
+                                        <span>Delete</span>
                                     </div>
-                                </form>
-                            </td>
-                            <td>$ 16</td>
-                            <td>$ 32</td>
-                            <td><i class="fa fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <th>3</th>
-                            <td>
-                                <p style="margin: 0">product name</p>
-                            </td>
-                            <td>
-                                <form action="#">
-                                    <div class="number-of-items">
-                                        <input type="number" value="1" class="border text-center">
+                                </div>
+                                <div class="col-5 text-center">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <span class="price">price</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <span class="qty">quantity</span>
+                                        </div>
                                     </div>
-                                </form>
-                            </td>
-                            <td>$ 25</td>
-                            <td>$ 25</td>
-                            <td><i class="fa fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <th>4</th>
-                            <td>
-                                <p style="margin: 0">product name</p>
-                            </td>
-                            <td>
-                                <form action="#">
-                                    <div class="number-of-items">
-                                        <input type="number" value="2" class="border text-center">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="c-data text-uppercase mb-4 shadow">
+                            <div class="row p-3">
+                                <div class="col-7">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="1">
+                                        <label class="custom-control-label" for="1">Lorem ipsum.</label>
                                     </div>
-                                </form>
-                            </td>
-                            <td>$ 15</td>
-                            <td>$ 30</td>
-                            <td><i class="fa fa-trash"></i></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">5</th>
-                            <td>
-                                <p style="margin: 0">product name</p>
-                            </td>
-                            <td>
-                                <form action="#">
-                                    <div class="number-of-items">
-                                        <input type="number" value="2" class="border text-center">
+                                </div>
+                            </div>
+                            <hr class="m-0">
+                            <div class="row p-3">
+                                <div class="col-7 d-flex">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="a">
+                                        <label class="custom-control-label d-flex" for="a">
+                                            <div class="c-thumb">
+                                                <img src="assets/images/view-cart-thumb.png" alt="" class="img-fluid">
+                                            </div>
+                                            <span class="c-info ml-2">
+                                                <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+                                                <p class="font-smaller mb-0 variation">product variation</p>
+                                                <span class="c-action">
+                                                    <i class="fa fa-heart mr-3"></i>
+                                                    <i class="fa fa-trash"></i>
+                                                </span>
+                                            </span>
+                                        </label>
                                     </div>
-                                </form>
-                            </td>
-                            <td>$ 20</td>
-                            <td>$ 40</td>
-                            <td><i class="fa fa-trash"></i></td>
-                        </tr>
-                        </tbody>
-                    </table>
+                                </div>
+                                <div class="col-5 text-center">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p class="font-weight-bold text-danger m-0">৳ 100</p>
+                                            <p class="m-0">৳ <del>90</del></p>
+                                            <p class="m-0"><span>-10%</span></p>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="c-qty d-flex mt-2">
+                                                <i class="fa fa-minus m-auto bg-light p-2"></i>
+                                                <span class="m-auto">1</span>
+                                                <i class="fa fa-plus m-auto bg-light p-2"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="c-data text-uppercase mb-4 shadow">
+                            <div class="row p-3">
+                                <div class="col-7">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="2">
+                                        <label class="custom-control-label" for="2">Lorem ipsum.</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="m-0">
+                            <div class="row p-3">
+                                <div class="col-7 d-flex">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="b">
+                                        <label class="custom-control-label d-flex" for="b">
+                                            <div class="c-thumb">
+                                                <img src="assets/images/view-cart-thumb.png" alt="" class="img-fluid">
+                                            </div>
+                                            <span class="c-info ml-2">
+                                                <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+                                                <p class="font-smaller mb-0 variation">product variation</p>
+                                                <span class="c-action">
+                                                    <i class="fa fa-heart mr-3"></i>
+                                                    <i class="fa fa-trash"></i>
+                                                </span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-5 text-center">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p class="font-weight-bold text-danger m-0">৳ 100</p>
+                                            <p class="m-0">৳ <del>90</del></p>
+                                            <p class="m-0"><span>-10%</span></p>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="c-qty d-flex mt-2">
+                                                <i class="fa fa-minus m-auto bg-light p-2"></i>
+                                                <span class="m-auto">1</span>
+                                                <i class="fa fa-plus m-auto bg-light p-2"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="c-data text-uppercase mb-4 shadow">
+                            <div class="row p-3">
+                                <div class="col-7">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="3">
+                                        <label class="custom-control-label" for="3">Lorem ipsum.</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="m-0">
+                            <div class="row p-3">
+                                <div class="col-7 d-flex">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="c">
+                                        <label class="custom-control-label d-flex" for="c">
+                                            <div class="c-thumb">
+                                                <img src="assets/images/view-cart-thumb.png" alt="" class="img-fluid">
+                                            </div>
+                                            <span class="c-info ml-2">
+                                                <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+                                                <p class="variation font-smaller mb-0">product variation</p>
+                                                <span class="c-action">
+                                                    <i class="fa fa-heart mr-3"></i>
+                                                    <i class="fa fa-trash"></i>
+                                                </span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-5 text-center">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p class="font-weight-bold text-danger m-0">৳ 100</p>
+                                            <p class="m-0">৳ <del>90</del></p>
+                                            <p class="m-0"><span>-10%</span></p>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="c-qty d-flex mt-2">
+                                                <i class="fa fa-minus m-auto bg-light p-2"></i>
+                                                <span class="m-auto">1</span>
+                                                <i class="fa fa-plus m-auto bg-light p-2"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="cart-totals z-depth-1 rounded">
-                    <div class="section-header text-center blue pt-1 pb-1">
+                    <!--<div class="section-header text-center blue pt-1 pb-1">
                         <h4 class="text-uppercase white-text"><i class="fa fa-calculator"> cart totals</i></h4>
-                    </div>
+                    </div>-->
                     <ul class="cart p-2">
                         <li class="text-capitalize p-2">total items<span class="float-right">8 items</span></li>
                         <li class="text-capitalize p-2">total Amount<span class="float-right">$ 142</span></li>
                         <li class="text-capitalize p-2">Shipping cost<span class="float-right">$ 0.00</span></li>
                         <li class="text-capitalize p-2">product tax<span class="float-right">$ 0.00</span></li>
+                        <li class="mt-3 mb-3">
+                            <div class="coupon-form">
+                                <form action="#">
+                                    <div class="d-flex">
+                                        <input type="text" class="form-control border m-0 mr-1 pl-2" placeholder="Enter Voucher Code" style="height: initial;">
+                                        <button type="submit" class="btn btn-primary m-0">Apply</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
                         <li class="text-capitalize p-2">grand total<span class="float-right">$ 142</span></li>
+                        <div class="text-center">
+                            <a class="w-100 waves-effect waves-light btn-small white-text mt-4 font-weight-bold z-depth-1 rounded" style="background: #f57224;">proceed to checkout</a>
+                        </div>
                     </ul>
-                </div>
-                <div class="text-center">
-                    <a class="w-100 waves-effect waves-light btn-large blue white-text mt-4 font-weight-bold z-depth-1 rounded">checkout</a>
                 </div>
             </div>
         </div>

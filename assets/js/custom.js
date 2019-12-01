@@ -85,6 +85,10 @@
                     items: 3,
                     nav: true
                 },
+                768: {
+                    items: 4,
+                    nav: true
+                },
                 1000: {
                     items: 5,
                     nav: true,

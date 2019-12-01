@@ -1,0 +1,62 @@
+/*
+cart view style start*/
+.cart-item-details{
+  ul{
+    li.c-heading{
+      .delete-all{
+        i{
+          color: #9e9e9e;
+        }
+        span{
+          font-weight: 300;
+          font-size: .8em;
+          color: #9e9e9e;
+        }
+      }
+      span.price, span.qty{
+        font-weight: 300;
+        font-size: .8em;
+        color: #9e9e9e;
+      }
+    }
+    li.c-data{
+      .c-action{
+        i{
+          font-size: 1.5em;
+          color: #9e9e9e;
+        }
+      }
+      .custom-control{
+        label{
+          .c-info{
+            p{
+              font-weight: 300;
+              font-size: 1em;
+              color: #9e9e9e;
+            }
+            p.variation{
+              font-weight: 300;
+              font-size: .8em;
+              color: #9e9e9e;
+            }
+          }
+        }
+      }
+      .c-info{
+        p{
+          font-weight: 300;
+          font-size: .8em;
+          color: #9e9e9e;
+        }
+        p.variation{
+          font-weight: 300;
+          font-size: .6em;
+          color: #9e9e9e;
+        }
+      }
+    }
+    li{}
+  }
+}
+/*
+cart view style end*/

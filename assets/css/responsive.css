@@ -17,7 +17,12 @@
     .mask h4 {
         font-size: 1.4em;
     }
-
+    .single-product {
+        width: 25%;
+    }
+    .single-product.shop-page{
+        width: 33.33%;
+    }
     /*front page end*/
     /*product details page start*/
     .review-form {
@@ -68,6 +73,12 @@
         padding: 20px 0;
     }
 
+    .single-product {
+        width: 50%;
+    }
+    .single-product.shop-page{
+        width: 50%;
+    }
     /*front page end*/
     /*product details page start*/
     .review-form {
